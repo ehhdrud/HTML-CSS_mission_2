@@ -1,0 +1,187 @@
+/* 오늘의 쇼핑 제안 */
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1022px;
+  margin: 100px auto;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+h1 > a {
+  display: block;
+}
+
+picture > img {
+  width: 176px;
+  height: 40px;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  width: 234px;
+  height: 30px;
+  background-image: url("/Mission-02/assets/icon/shopping.svg");
+  background-repeat: no-repeat;
+  background-position: 0px;
+}
+
+h2 > p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 115%;
+  width: 168px;
+  height: 28px;
+  margin: 1px 36px 1px 30px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 270px;
+  margin-right: 5px;
+}
+
+.product:last-child {
+  margin-right: 0px;
+}
+
+.product-img {
+  width: 160px;
+  height: 160px;
+  margin: 14px 20px 12px 20px;
+}
+
+.product-footer {
+  display: flex;
+  flex-direction: column;
+  width: 172px;
+  margin: 0px 14px auto 14px;
+}
+
+.product-footer > p {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.product-footer > p:nth-child(2) {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color-gray-700);
+  line-height: 120%;
+}
+
+.product-footer > img {
+  width: 55px;
+  height: 16px;
+  margin-bottom: 4px;
+}
+
+.star-and-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 117px;
+  height: 17px;
+}
+
+.first-star {
+  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-position: 0px 26px;
+  width: 68px;
+  height: 12px;
+  left: 0px;
+  top: 52px;
+}
+
+.second-star {
+  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-position: 0px 26px;
+  width: 68px;
+  height: 12px;
+  left: 0px;
+  top: 52px;
+}
+
+.third-star {
+  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-position: 0px 40px;
+  width: 68px;
+  height: 12px;
+  left: 0px;
+  top: 52px;
+}
+
+.fourth-star {
+  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-position: bottom;
+  width: 68px;
+  height: 12px;
+  left: 0px;
+  top: 52px;
+}
+
+.fifth-star {
+  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-position: 0px 40px;
+  width: 68px;
+  height: 12px;
+  left: 0px;
+  top: 52px;
+}
+
+.review {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--color-gray-700);
+}
+
+span {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+}
+
+button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 53px;
+  height: 30px;
+  padding: 3px 10px;
+  gap: 10px;
+  border: none;
+  background: var(--color-red-500);
+  border-radius: 0px 0px 4px 0px;
+  color: var(--color-white);
+  font-size: 16px;
+}
