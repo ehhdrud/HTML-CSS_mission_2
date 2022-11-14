@@ -27,7 +27,7 @@ h2 {
   margin-bottom: 24px;
   width: 234px;
   height: 30px;
-  background-image: url("/Mission-02/assets/icon/shopping.svg");
+  background-image: url("/assets/icon/shopping.svg");
   background-repeat: no-repeat;
   background-position: 0px;
 }
@@ -111,7 +111,7 @@ h2 > p {
 }
 
 .first-star {
-  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-image: url(/assets/sprites/rating-stars.png);
   background-position: 0px 26px;
   width: 68px;
   height: 12px;
@@ -120,7 +120,7 @@ h2 > p {
 }
 
 .second-star {
-  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-image: url(/assets/sprites/rating-stars.png);
   background-position: 0px 26px;
   width: 68px;
   height: 12px;
@@ -129,7 +129,7 @@ h2 > p {
 }
 
 .third-star {
-  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-image: url(/assets/sprites/rating-stars.png);
   background-position: 0px 40px;
   width: 68px;
   height: 12px;
@@ -138,7 +138,7 @@ h2 > p {
 }
 
 .fourth-star {
-  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-image: url(/assets/sprites/rating-stars.png);
   background-position: bottom;
   width: 68px;
   height: 12px;
@@ -147,7 +147,7 @@ h2 > p {
 }
 
 .fifth-star {
-  background-image: url(/Mission-02/assets/sprites/rating-stars.png);
+  background-image: url(/assets/sprites/rating-stars.png);
   background-position: 0px 40px;
   width: 68px;
   height: 12px;
