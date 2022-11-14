@@ -23,24 +23,24 @@ picture > img {
 h2 {
   display: flex;
   align-items: center;
-  margin-top: 0px;
-  margin-bottom: 24px;
   width: 234px;
   height: 30px;
+  margin-top: 0px;
+  margin-bottom: 24px;
   background-image: url("/assets/icon/shopping.svg");
   background-repeat: no-repeat;
   background-position: 0px;
 }
 
 h2 > p {
+  width: 168px;
+  height: 28px;
+  margin: 1px 36px 1px 30px;
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 115%;
-  width: 168px;
-  height: 28px;
-  margin: 1px 36px 1px 30px;
 }
 
 .product-container {
@@ -50,9 +50,9 @@ h2 > p {
 }
 
 .product {
-  position: relative;
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 200px;
   height: 270px;
   margin-right: 5px;
@@ -111,48 +111,38 @@ h2 > p {
 }
 
 .first-star {
-  background-image: url(/assets/sprites/rating-stars.png);
-  background-position: 0px 26px;
   width: 68px;
   height: 12px;
-  left: 0px;
-  top: 52px;
+  background-image: url(/assets/sprites/rating-stars.png);
+  background-position: 0px 26px;
 }
 
 .second-star {
-  background-image: url(/assets/sprites/rating-stars.png);
-  background-position: 0px 26px;
   width: 68px;
   height: 12px;
-  left: 0px;
-  top: 52px;
+  background-image: url(/assets/sprites/rating-stars.png);
+  background-position: 0px 26px;
 }
 
 .third-star {
-  background-image: url(/assets/sprites/rating-stars.png);
-  background-position: 0px 40px;
   width: 68px;
   height: 12px;
-  left: 0px;
-  top: 52px;
+  background-image: url(/assets/sprites/rating-stars.png);
+  background-position: 0px 40px;
 }
 
 .fourth-star {
-  background-image: url(/assets/sprites/rating-stars.png);
-  background-position: bottom;
   width: 68px;
   height: 12px;
-  left: 0px;
-  top: 52px;
+  background-image: url(/assets/sprites/rating-stars.png);
+  background-position: bottom;
 }
 
 .fifth-star {
-  background-image: url(/assets/sprites/rating-stars.png);
-  background-position: 0px 40px;
   width: 68px;
   height: 12px;
-  left: 0px;
-  top: 52px;
+  background-image: url(/assets/sprites/rating-stars.png);
+  background-position: 0px 40px;
 }
 
 .review {
@@ -178,10 +168,10 @@ span {
   width: 53px;
   height: 30px;
   padding: 3px 10px;
-  gap: 10px;
   border: none;
-  background: var(--color-red-500);
   border-radius: 0px 0px 4px 0px;
+  gap: 10px;
+  background: var(--color-red-500);
   color: var(--color-white);
   font-size: 16px;
 }
