@@ -83,6 +83,10 @@ h2 > p {
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .product-footer > p:nth-child(2) {
