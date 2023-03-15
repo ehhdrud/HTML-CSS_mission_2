@@ -12,10 +12,6 @@ h1 {
   margin-bottom: 48px;
 }
 
-h1 > a {
-  display: block;
-}
-
 picture > img {
   width: 176px;
   height: 40px;
@@ -24,10 +20,6 @@ picture > img {
 /* 3. 섹션 */
 /* 3.1. 섹션: 제목 */
 h2 {
-  display: flex;
-  align-items: center;
-  width: 234px;
-  height: 30px;
   margin-top: 0px;
   margin-bottom: 24px;
   background-image: url("/assets/icon/shopping.svg");
@@ -36,8 +28,6 @@ h2 {
 }
 
 h2 > p {
-  width: 168px;
-  height: 28px;
   margin: 1px 36px 1px 30px;
   font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
