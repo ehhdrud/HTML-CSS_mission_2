@@ -6,6 +6,13 @@ body {
   margin: 100px auto;
 }
 
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+}
+
 /* 2. 헤더 */
 h1 {
   margin-top: 0px;
@@ -18,7 +25,7 @@ picture > img {
 }
 
 /* 3. 섹션 */
-/* 3.1. 섹션: 제목 */
+/* 3.1. 섹션 - 제목 */
 h2 {
   margin-top: 0px;
   margin-bottom: 24px;
@@ -36,7 +43,7 @@ h2 > p {
   line-height: 115%;
 }
 
-/* 3.2. 섹션: 컨테이너 */
+/* 3.2. 섹션 - 컨테이너 */
 .product-container {
   display: flex;
   justify-content: space-between;
@@ -56,7 +63,7 @@ h2 > p {
   margin-right: 0px;
 }
 
-/* 3.2.1. 제품 이미지 */
+/* 3.2.1. 섹션 - 컨테이너 - 제품 이미지 */
 .product-img {
   width: 160px;
   height: 160px;
@@ -72,13 +79,12 @@ h2 > p {
   padding: 3px 10px;
   border: none;
   border-radius: 0px 0px 4px 0px;
-  gap: 10px;
   background: var(--color-red-500);
   color: var(--color-white);
   font-size: 16px;
 }
 
-/* 3.2.2. 섹션: 푸터 */
+/* 3.2.2. 섹션 - 컨테이너 - 푸터 */
 .product-footer {
   display: flex;
   flex-direction: column;
@@ -86,6 +92,7 @@ h2 > p {
   margin: 0px 14px auto 14px;
 }
 
+/* 3.2.2.1. 섹션 - 컨테이너 - 푸터 - 제품명 */
 .product-footer > p {
   margin-top: 0px;
   margin-bottom: 12px;
@@ -99,6 +106,14 @@ h2 > p {
   text-overflow: ellipsis;
 }
 
+/* 3.2.2.2. 섹션 - 컨테이너 - 푸터 - 배송이미지 */
+.product-footer > img {
+  width: 55px;
+  height: 16px;
+  margin-bottom: 4px;
+}
+
+/* 3.2.2.3. 섹션 - 컨테이너 - 푸터 - 배송텍스트 */
 .product-footer > p:nth-child(2) {
   margin-top: 0px;
   margin-bottom: 4px;
@@ -110,13 +125,7 @@ h2 > p {
   line-height: 120%;
 }
 
-.product-footer > img {
-  width: 55px;
-  height: 16px;
-  margin-bottom: 4px;
-}
-
-/* 3.2.2.1. 섹션: 별점 */
+/* 3.2.2.4. 섹션 - 컨테이너 - 푸터 - 별점 */
 .star-and-review {
   display: flex;
   justify-content: space-between;
@@ -160,7 +169,7 @@ h2 > p {
   background-position: 0px 40px;
 }
 
-/* 3.2.2.2. 섹션: 리뷰 */
+/* 3.2.2.5. 섹션 - 컨테이너 - 푸터 - 리뷰 */
 .review {
   font-family: "Noto Sans KR";
   font-style: normal;
@@ -168,12 +177,4 @@ h2 > p {
   font-size: 14px;
   line-height: 120%;
   color: var(--color-gray-700);
-}
-
-/* 4. 스크린 리더 처리 */
-span {
-  position: absolute;
-  overflow: hidden;
-  width: 1px;
-  height: 1px;
 }
